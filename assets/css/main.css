@@ -1,0 +1,788 @@
+/*=================================================================
+	Basic Setup css
+==================================================================*/
+html {
+    font-size: 100%;
+    min-height: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+	/*font-family: 'Raleway', sans-serif;*/
+	font-family: '', Poppins-Regular;
+	font-size: 14px;
+	color: #222222;
+	font-weight: normal;
+	overflow-x: hidden;
+	line-height: 20px;
+}
+
+
+@font-face{
+  font-family: 'Poppins-Regular';
+  src: url('../../poppins/Poppins-Regular.ttf');
+}
+
+@font-face{
+  font-family: 'Poppins-Bold';
+  src: url('../../poppins/Poppins-Bold.ttf');
+}
+
+@font-face{
+  font-family: 'Rubik-Bold';
+  src: url('../../Rubik/Rubik-Bold.ttf');
+}
+
+@font-face{
+  font-family: 'Rubik-Medium';
+  src: url('../../Rubik/Rubik-Medium.ttf');
+}
+
+
+a,
+a:active,
+a:hover,
+a:focus,
+a:visited{
+	text-decoration:none;
+	/*background:transparent;*/
+	outline:none;
+	color:inherit;
+}
+
+/*a:hover{
+	color: #663fb5 !important;
+}*/
+
+button:focus{
+	outline:none;
+}
+
+li{
+	/*list-style:none;*/
+}
+
+article,
+figure,
+footer,
+header,
+nav,
+section{
+	display:block
+}
+
+select:focus {
+    outline-offset:0;
+}
+
+/* Internet Explorer 10 in Windows 8 and Windows Phone 8 Bug fix */
+@-webkit-viewport {
+	width: device-width;
+}
+@-moz-viewport {
+	width: device-width;
+}
+@-ms-viewport {
+	width: device-width;
+}
+@-o-viewport {
+	width: device-width;
+}
+@viewport {
+	width: device-width;
+}
+
+
+
+
+
+a:focus, a:hover {
+    	text-decoration:none !important;
+	}
+
+
+.navbar {
+    /*position: relative;*/
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.navbar-toggle {
+  /*border: 2px solid #FFFFFF;*/
+  color: #ffffff;
+  background:#945494;
+}
+
+.navbar-toggle .icon-bar {
+    background: #fff !important;
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+    background-color: transparent;
+}
+
+.header-body {
+  height: calc(100vh - 80px);
+}
+
+#form .input-group input[class="form-control"] {
+  border-radius: 50px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  font-size: 17px;
+  color:#222;
+  padding:7px 12px;
+  border-right-width:0;
+}
+
+#form .input-group select[class="form-control"] {
+  border-radius:50px;
+  border-top-left-radius:0;
+  border-bottom-left-radius:0;
+  font-size:17px;
+  width:100px;
+  color:#222;
+  border-left-width:0;
+}
+
+.form-control:focus {
+    border:1px solid #ccc !important;
+    outline:0;
+    -webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(254, 86, 33, .6) !important;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 2px rgba(0, 0, 0, .6) !important;
+}
+
+.form-group1 .form-control:focus {
+    border:none!important;
+    outline:0;
+    -webkit-box-shadow:none !important;
+    box-shadow: none !important;
+    border-bottom:1px solid brown !important;
+}
+
+
+	
+
+
+::-webkit-scrollbar{
+	height: 7px;
+	width: 7px;
+}
+::-webkit-scrollbar-track{
+	border-radius: 50px;
+	/*-webkit-box-shadow:inset 0 0 6px rgba(0,0,0,0.1);*/
+}
+::-webkit-scrollbar-thumb{
+	border-radius: 1px;
+	background-color: #a7a7a7;
+}
+
+
+
+
+
+/*hover on dropdown and drop*/
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;
+}
+/*hover on dropdown and drop end*/
+
+
+/*=================================================================
+  Custom Css
+==================================================================*/
+
+.__times{
+    margin-top: 6px;
+    color: #969696;
+}
+
+.__email {
+    margin-top: 6px;
+    color: #969696;
+    float: right;
+}
+.__navdown{
+  background: #eae9e9;
+  margin-bottom: 0;
+  padding: 8px 0;
+  border-radius: 0;
+  border-bottom: 1px solid #eae9e9;
+  box-shadow: 0 4px 10px 0px rgba(0, 0, 0, 0.11);
+}
+
+.__schlogo{
+  width: 98px;
+  margin-top: -23px;
+}
+
+.__navfa{
+    color: #945494 !important;
+    margin-top: 6px;
+    font-weight:600;
+    font-size: 12px;
+}
+
+.__navfa:hover{
+  color: #945494 !important;
+}
+
+.__navf{
+  color: #12204e;
+  font-size: 12px;
+  margin-top: 6px;
+  font-weight:600;
+}
+
+.__navf:hover{
+  color: #945494 !important;
+}
+
+/*special carousel*/
+/*carouse; top*/
+.__carousel-innert>.item> .__img{
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  /*clip-path: polygon(0 0, 100% 0, 83% 100%, 0% 100%);*/
+  height: 489px;
+}
+
+.__carousel-caption{
+  right: 19% !important;
+  bottom: 87px;
+  left: 8% !important;
+  text-align: left !important;
+}
+
+.__carousel-controlt{
+  width: 5%;
+  top: 90%;
+  left: 90%;
+  right: 2% !important;
+  z-index: 999999;
+}
+
+.__carousel-controlt span{
+  font-size: 12px !important;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  padding: 1px 6px;
+  /*height: 20px !important;
+  width: 20px !important;*/
+  background: #ffffff;
+  color: #000000;
+}
+
+.__carousel-controlt.left{
+  background-image: linear-gradient(to right,transparent 0,transparent 100%);
+}
+.__carousel-controlt.right{
+  background-image: linear-gradient(to right,transparent 0,transparent 100%);
+}
+
+.__main-textt{
+    position: absolute;
+    top: 16%;
+    padding: 52px;
+}
+
+.__colat{
+  font-size: 50px;
+  line-height: 1.2;
+  font-family: Rubik-Bold;
+  color: #ffffff;
+}
+
+.__colat1{
+  font-size: 20px;
+  line-height: 1.5;
+  color: #ffffff;
+}
+
+.__becobtn{
+  font-size: 16px;
+  background: #1b4e63;
+  color: #ffffff !important;
+  border-radius: 4px;
+  line-height: 1.56;
+  font-family: Poppins-Medium;
+  padding: 10px 20px;
+  margin-top: 4%;
+}
+.__becobtn1{
+  font-size: 16px;
+  background: #ffffff;
+  color: #1b4e63 !important;
+  border-radius: 4px;
+  line-height: 1.56;
+  font-family: Poppins-Medium;
+  padding: 10px 20px;
+  margin-top: 10%;
+}
+/*carouse; top end*/
+/*special carousel end*/
+
+
+/*scroll down*/
+.arrow {
+  /*text-align: center;*/
+  margin: 4% 0;
+  color: #e8b50a;
+  /*font-family: Gilroy-ExtraBold;*/
+}
+
+.arrow i{
+  margin-left: 26px;
+}
+.bounce {
+  -moz-animation: bounce 1.5s infinite;
+  -webkit-animation: bounce 1.5s infinite;
+  animation: bounce 1.5s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+/*scroll down end*/
+
+.__trustedp{
+  font-size: 30px;
+  line-height: 1.2;
+  font-family: Rubik-Medium;
+  margin-top: 5%;
+}
+
+
+.__wecardvmc{
+  border-radius: 7px;
+    -webkit-box-shadow: 0 3px 24px 0 rgba(0, 0, 0, 0.16);
+    box-shadow: 0 3px 24px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    height: 17vh;
+}
+
+.__wecard1{
+  background: #945494;
+  padding: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.__wecard2{
+  padding: 10px 36px;
+}
+
+.__int{
+  font-size: 18px;
+  line-height: 1.2;
+  font-family: Poppins-Bold;
+  margin-top: 5%;
+}
+
+.__int1{
+  text-align: justify;
+}
+
+/*image zoom*/
+.__abuotm{
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  height: 306px;
+}
+
+.__imghov{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 306px;
+  border-radius: 8px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  background: #000000;
+  transition: all 0.4s ease-in;
+  margin-top: 20px;
+}
+
+.__imghov .__abuotm{
+  display: block;
+  /*height: auto;*/
+  /*-webkit-transition: all 300ms;
+  -moz-transition: all 300ms;
+  transition: all 300ms;*/
+  max-width: 100%;
+  -webkit-transition: transform 0.5s ease;
+    -o-transition: transform 0.5s ease;
+    transition: transform 0.5s ease;
+}
+
+
+.__imghov:hover .__abuotm{
+  -webkit-transform: scale(1.4);
+  -moz-transform: scale(1.4);
+  transform: scale(1.4);
+}
+
+.__imgtxthov {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #000000;
+  /* border: solid 1px #707070; */
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  height: 100%;
+  text-align: center;
+  padding-top: 30%;
+  transition: all 0.4s ease-in;
+}
+
+.__imghov:hover .__imgtxthov {
+  visibility: visible;
+  opacity: 0.55;
+  font-size: 18px;
+  line-height: 1.4;
+}
+/*end*/
+
+/*gallary begin*/
+#ninja-slider {
+    width:100%;
+    background:#191919;
+    padding: 0;
+
+    margin:0 auto;
+    overflow:hidden;
+    box-sizing:border-box;
+}
+
+
+#ninja-slider .fs-icon {
+    top:6px;
+    right:6px;
+    width:60px;
+    height:26px;
+    background: rgba(0,0,0,0.2);
+    z-index:2;
+    color:white;
+    text-align:center;
+    text-shadow:0 0 3px black;
+    font:bold 18px/36px arial;
+    border-radius:2px;
+    opacity:0;
+    -webkit-transition:opacity 0.8s;
+    transition:opacity 0.8s;
+}
+
+#ninja-slider .slider-inner:hover .fs-icon,
+#ninja-slider.fullscreen .fs-icon {
+    opacity: 1;
+}
+
+#ninja-slider .fs-icon::before {      
+    content:"EXPAND";
+    display:block;
+}
+
+#ninja-slider.fullscreen .fs-icon::before {
+    content:"+";
+    display:block;
+    font-weight:bold;
+    font-size:3em;
+    transform: rotate(-45deg);
+}
+
+#ninja-slider .slider-inner {
+    /*max-width:700px;*/
+    margin:0 auto;/*center-aligned */
+    font-size:0px;
+    position:relative;
+    box-sizing:border-box;
+    padding-bottom:100px!important;
+}
+
+#ninja-slider.fullscreen .slider-inner {
+    width:98%; /* 100% will cause a big top gap issue in iPhone*/
+    max-width:900px;
+}
+
+#ninja-slider ul {
+    position:relative;
+    list-style:none;
+    padding:0;
+    box-sizing:border-box;
+
+    overflow:visible!important; /*For showing captions outside the slider when transitionType is "fade". */
+}
+
+#ninja-slider li {
+    
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    position: absolute;
+    font-size:12px;
+    list-style:none;
+    margin:0;
+    padding:0;
+    opacity:0;
+    /*overflow:hidden;*/ /*Comment it out to show the caption*/
+    box-sizing:border-box;
+
+    margin-bottom:100px!important;
+}
+
+#ninja-slider li.ns-show {
+    opacity:1;
+}
+
+
+
+/* --------- slider image ------- */  
+#ninja-slider .ns-img {
+    background-size:contain;/*Note: If transitionType is zoom, it will be overridden to cover.*/
+
+    cursor:default;
+    display:block;
+    position: absolute;
+    width:100%;
+    height:100%;
+    background-repeat:no-repeat;
+    background-position:center center;
+}
+
+
+/*---------- Captions -------------------*/
+#ninja-slider .caption {
+    position:absolute;
+    top:98%;
+    padding:0 40px;
+    margin:auto;
+    width:100%;
+    text-align:center;
+    font-family:sans-serif;
+    font-size:14px;
+    color:#ccc;
+    box-sizing:border-box;    
+}
+
+
+/* ---------Arrow buttons ------- */   
+/* The arrow button id should be: slider id + ("-prev", "-next", and "-pause-play") */ 
+#ninja-slider-pause-play { display:none;}  
+
+#ninja-slider-prev, #ninja-slider-next
+{
+    position: absolute;
+    display:inline-block;
+    width:42px;
+    height:56px;
+    line-height:56px;
+    top: 40%; /* not 50% as caption at bottom should be counted.*/
+    margin-top:-28px;
+    background-color:rgba(0,0,0,0.4);
+    background-color:#ccc\9;/*IE8 hack*/
+    backface-visibility:hidden;
+    color:white;
+    overflow:hidden;
+    white-space:nowrap;
+    -webkit-user-select: none;
+    user-select:none;
+    border-radius:2px;
+    z-index:10;
+    opacity:0.3; 
+    font-family:sans-serif;   
+    font-size:13px;
+    cursor:pointer;
+    -webkit-transition:all 0.7s;
+    transition:all 0.4s;
+}
+
+.slider-inner:hover #ninja-slider-prev, .slider-inner:hover #ninja-slider-next {
+    opacity:1;
+}
+
+
+#ninja-slider-prev {
+    left: -42px; /*set it with a positive value if .slider-inner does not have max-width setting.*/
+}
+#ninja-slider-next {
+    right: -42px;
+}
+
+/* arrows */
+#ninja-slider-prev::before, #ninja-slider-next::before {
+    position: absolute;
+    top: 17px;
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-left: 2px solid white;
+    border-top: 2px solid white;
+    backface-visibility:hidden;
+}
+
+#ninja-slider-prev::before {
+    -ms-transform:rotate(-45deg);/*IE 9*/
+    -webkit-transform:rotate(-45deg);
+    transform: rotate(-45deg);
+    left:16px;
+}
+
+#ninja-slider-next::before {
+    -ms-transform:rotate(135deg);/*IE 9*/
+    -webkit-transform:rotate(135deg);
+    transform: rotate(135deg);
+    right:16px;
+}
+
+
+/*pagination num within the arrow buttons*/
+#ninja-slider-prev:hover, #ninja-slider-next:hover {width:80px;background-color:rgba(0,0,0,0.5);}
+#ninja-slider-prev div {margin-right:8px;white-space:nowrap;opacity:0;float:right;}
+#ninja-slider-next div {margin-left:8px;white-space:nowrap;opacity:0;float:left;}
+#ninja-slider-prev:hover div, #ninja-slider-next:hover div {opacity:1;}
+
+
+/*------ pager(nav bullets) ------*/      
+/* The pager id should be: slider id + "-pager" */
+#ninja-slider-pager { display:none;}   
+
+#ninja-slider-prev, #ninja-slider-next, #ninja-slider-pause-play
+{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.__captp{
+  font-size: 20px;
+  line-height: 1.4;
+      margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.__gimg{
+  background-color: #ffffff;
+  box-shadow: 0 0 1px 0 rgba(188, 188, 188, 0.5);
+  cursor: pointer;
+  transition: all 0.4s ease-in;
+  /*height: 380px;*/
+  margin-top: 20px;
+}
+
+.__gimg:hover{
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.08);
+}
+
+.__gimg .__gimgdiv{
+ background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+    width: 100%;
+    height: 37vh;
+    /*border-radius: 9px;*/
+}
+
+.__gimg img{
+  width: 360px;
+  height: 230px;
+}
+
+.__gimg p:nth-child(2){
+  /*font-size: 10px;
+  font-weight: 500;
+  line-height: 1.33;
+  letter-spacing: 2.3px;*/
+  /*color: #969696;*/
+  padding: 9px;
+}
+.__gimg p:nth-child(3){
+  font-size: 13px;
+  font-weight: 900;
+  line-height: 1.39;
+  letter-spacing: 1.8px;
+  color: #404040;
+  padding: 9px 20px;
+}
+
+
+/*Responsive settings*/
+
+@media only screen and (max-width:1050px){
+    
+    #ninja-slider-prev {
+        left:0;
+    }
+
+    #ninja-slider-next {
+        right:0;
+    }
+}
+
+@media only screen and (max-width:600px){
+
+    #ninja-slider-prev, #ninja-slider-next, #ninja-slider-pager {
+        display:none;
+    }
+
+    
+    #ninja-slider li .cap1 {
+        font-size:20px;
+    }
+}
+
+
+/*gallary end*/
+
+
+
+/*footer*/
+.__foter{
+  background-color: #945494;
+  padding: 39px 0;
+  margin-top:5%;
+}
+
+.__fotp{
+  font-size: 30px;
+  line-height: 1.2;
+  font-family: Rubik-Medium;
+  color: #ffffff;
+}
+
+.__fh{
+font-size: 18px;
+  font-weight: 900;
+  letter-spacing: 2.7px;
+  color: #eeeeee;
+}
+
+.__fotr{
+  font-size: 12px;
+  font-weight: 200;
+  letter-spacing: 1.1px;
+  color: #b9b9b9 !important;
+  transition: all 0.4s ease-in;
+}
+
+.mr{
+  text-align: right;
+}
+
+
+/*footer end*/
