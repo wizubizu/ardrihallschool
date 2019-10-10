@@ -82,6 +82,14 @@
     padding: 10px 9px;
   }
 
+  .__imghov {
+    height: 416px;
+  }
+
+  .__abuotm {
+    height: 427px;
+  }
+
 
 }
 
@@ -157,6 +165,18 @@
 
   .mr {
     text-align: left;
+  }
+
+  .__imghov {
+    height: 369px;
+  }
+
+  .__abuotm {
+    height: 371px;
+  }
+
+  .__imghov:hover .__imgtxthov {
+    font-size: 21px;
   }
 
 }
