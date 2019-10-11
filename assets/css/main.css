@@ -398,7 +398,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
-  height: 569px;
+  height: 365px;
 }
 
 .__imghov{
@@ -454,6 +454,13 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   opacity: 0.55;
   font-size: 29px;
   line-height: 1.4;
+}
+
+.__txt{
+  font-size: 17px;
+  line-height: 1.2;
+  font-family: Poppins-Bold;
+  margin-top: 10px;
 }
 /*end*/
 

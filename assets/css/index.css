@@ -52,6 +52,10 @@
   .__wecard2 {
     padding: 10px 9px;
   }
+
+  .__abuotm {
+    height: 295px;
+  }
   
 
 }
@@ -82,12 +86,9 @@
     padding: 10px 9px;
   }
 
-  .__imghov {
-    height: 416px;
-  }
 
   .__abuotm {
-    height: 427px;
+    height: 277px;
   }
 
 
@@ -99,7 +100,13 @@
 
 @media screen and (max-width: 767px){
 
+  .__email {
+    float: left;
+  }
 
+  .mr {
+    text-align: left;
+  }
   
 }
 
@@ -167,17 +174,8 @@
     text-align: left;
   }
 
-  .__imghov {
-    height: 369px;
-  }
 
-  .__abuotm {
-    height: 371px;
-  }
-
-  .__imghov:hover .__imgtxthov {
-    font-size: 21px;
-  }
+  
 
 }
 
