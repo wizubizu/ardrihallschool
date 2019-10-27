@@ -96,12 +96,16 @@
   }
 
   .__schlogo {
-    width: 75px;
+    width: 60px;
     margin-top: -14px;
   }
 
   .__carousel-innert>.item> .__img {
     height: 363px;
+  }
+
+  .__gimg .__gimgdiv {
+    height: 70vh;
   }
 
 
@@ -186,6 +190,10 @@
 
   .mr {
     text-align: left;
+  }
+
+  .__gimg .__gimgdiv {
+    height: 60vh;
   }
 
 
