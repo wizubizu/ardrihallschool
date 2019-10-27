@@ -246,12 +246,13 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   background-repeat: no-repeat !important;
   background-size: cover !important;
   /*clip-path: polygon(0 0, 100% 0, 83% 100%, 0% 100%);*/
-  height: 489px;
+  height: 664px;
 }
 
 .__carousel-caption{
   right: 19% !important;
-  bottom: 87px;
+  /*bottom: 87px;*/
+  top: 87px;
   left: 8% !important;
   text-align: left !important;
 }

@@ -56,6 +56,10 @@
   .__abuotm {
     height: 295px;
   }
+
+  .__carousel-innert>.item> .__img {
+    height: 496px;
+  }
   
 
 }
@@ -91,6 +95,15 @@
     height: 277px;
   }
 
+  .__schlogo {
+    width: 75px;
+    margin-top: -14px;
+  }
+
+  .__carousel-innert>.item> .__img {
+    height: 363px;
+  }
+
 
 }
 
@@ -124,6 +137,7 @@
 
   .__schlogo {
     width: 90px;
+    margin-top: -23px;
   }
 
   .__carousel-innert>.item> .__img {
@@ -132,7 +146,7 @@
 
   .__carousel-caption {
     right: 8% !important;
-    bottom: -12px;
+    top: 49px;
     left: 5% !important;
   }
 
