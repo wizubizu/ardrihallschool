@@ -398,6 +398,8 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
+  box-shadow: 0 3px 24px 0 rgba(0, 0, 0, 0.16);
+    border-radius: 8px;
   height: 365px;
 }
 
@@ -538,7 +540,8 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
     
     width:100%;
     height:100%;
-    top:0;
+    /*top:0;*/
+    top:11px;
     left:0;
     position: absolute;
     font-size:12px;
@@ -689,11 +692,12 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   cursor: pointer;
   transition: all 0.4s ease-in;
   /*height: 380px;*/
+  border-radius: 5px;
   margin-top: 20px;
 }
 
 .__gimg:hover{
-  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 3px 24px 0 rgba(0, 0, 0, 0.16);
 }
 
 .__gimg .__gimgdiv{
@@ -703,6 +707,8 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
     width: 100%;
     height: 37vh;
     /*border-radius: 9px;*/
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 .__gimg img{
@@ -716,7 +722,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   line-height: 1.33;
   letter-spacing: 2.3px;*/
   /*color: #969696;*/
-  padding: 9px;
+  /*padding: 9px;*/
 }
 .__gimg p:nth-child(3){
   font-size: 13px;
@@ -756,6 +762,20 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 
 /*gallary end*/
 
+.__viewg{
+  background:#945494;
+  color: #ffffff !important;
+  border:1px solid #945494;
+  font-family: Poppins-Bold;
+  padding: 8px 30px;
+  transition: all 0.4s ease-in;
+}
+
+.__viewg:hover{
+  background:transparent;
+  color: #945494 !important;
+}
+
 
 
 /*footer*/
@@ -783,7 +803,7 @@ font-size: 18px;
   font-size: 12px;
   font-weight: 200;
   letter-spacing: 1.1px;
-  color: #b9b9b9 !important;
+  color: #eeeeee !important;
   transition: all 0.4s ease-in;
 }
 
