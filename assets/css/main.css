@@ -204,17 +204,19 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
     float: right;
 }
 .__navdown{
-  background: #eae9e9;
+  /*background: #eae9e9;*/
   margin-bottom: 0;
   padding: 8px 0;
   border-radius: 0;
-  border-bottom: 1px solid #eae9e9;
+  /*border-bottom: 1px solid #eae9e9;*/
   box-shadow: 0 4px 10px 0px rgba(0, 0, 0, 0.11);
 }
 
 .__schlogo{
-  width: 98px;
+  width: 106px;
   margin-top: -23px;
+  position: absolute;
+  z-index: 999;
 }
 
 .__navfa{
